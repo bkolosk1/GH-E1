@@ -74,7 +74,7 @@ APP.layout = html.Div([
                         id="trigger_plot",
                         n_clicks=0)
                 ],
-            )], style={'width': '5%',
+            )], style={'width': '15%',
                        'display': 'inline-block', 'vertical-align': 'top'
                        }),
     html.Div([
@@ -87,7 +87,7 @@ APP.layout = html.Div([
                         step=None,
                         marks={i:f"-{30-i-1}" for i in range(0, 30)},
                             
-                        value=5
+                        value=0
                         )
                 ],
 
