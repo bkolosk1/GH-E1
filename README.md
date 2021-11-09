@@ -15,6 +15,7 @@ The project was developed and tested on Ubuntu 19.10, with the following depende
 - sklearn
 - geopandas
 - plotly
+- dash
 ```
 
 ## Project Structure
@@ -25,6 +26,7 @@ The project is organized as follows:
     ├── map_viz                 # Root directory for front-end logic
         ├── data                # Cached data used for front-end
         ├── src                 # Source code of front-end  
+    ├── notebooks               # All Data Science and Machine Learning analyses, methods and data processing
     ├── LOCS.csv                # Geographic coordinates of our clusters
     ├── app.py                  # Main file that starts front-end
 
